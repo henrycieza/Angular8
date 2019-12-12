@@ -2,10 +2,15 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HeroesComponent } from './heroes/heroes.component';
 import { NotFoundComponent } from './core/not-found/not-found.component';
+import { AppComponent } from './app.component';
 
 
 
 const routes: Routes = [
+  {
+    path: '',
+    component:AppComponent
+  },
   {
     path: 'heroes',
     component: HeroesComponent

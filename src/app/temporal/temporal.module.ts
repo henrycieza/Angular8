@@ -10,6 +10,6 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule, SharedModule
   ],
-  exports: [TemporalComponent]
+  exports: [TemporalComponent, SharedModule]
 })
 export class TemporalModule { }
